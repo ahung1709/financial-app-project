@@ -7,7 +7,7 @@ const { application } = require('express');
 // Always require and configure near the top
 require('dotenv').config();
 // Connect to the database
-// require('./config/database');
+require('./config/database');
 
 const app = express();
 
